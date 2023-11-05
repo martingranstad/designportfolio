@@ -2,8 +2,8 @@
 Logo: image/leaf_256x256.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Länk till sidans github repo.
+      url: https://github.com/martingranstad/designportfolio
       icon: github
     - title: Länk till BTHs hemsida
       url: https://bth.se
