@@ -3,9 +3,8 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
-==========================
+# Martin Granstad
 
-The source for this page is in `content/index.md`.
+Hej och välkommna till min portföljsida för kursen Design på BTH. Jag heter Martin och läser ett kurspaket på distans i webbutveckling.
 
-This is a sample home page written in markdown with some frontmatter defined.
+![coding picture](%assets_url%/img/code.jpg){.firstimg}
