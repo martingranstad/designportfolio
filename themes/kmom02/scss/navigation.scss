@@ -1,0 +1,19 @@
+/* Navigation */
+.nav {
+    a {
+        text-decoration: none;
+        color: $background-color;
+    }
+
+    li:first-child {
+        background-color: #883136;
+    }
+
+    li:last-child {
+        background-color: #d34c53;
+    }
+
+    a:hover {
+        border-bottom: 2px solid $background-color;
+    }
+}

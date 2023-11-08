@@ -24,15 +24,16 @@ $fa-font-path: '../../shared/fontawesome/webfonts';//Location of fonts relative 
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
 
+@import 'base';
+@import 'placement';
 @import 'typography';
+
+@import 'mobile-menu';
+@import 'header';
+@import 'navigation';
+@import 'title';
+@import 'footer';
+@import 'image';
 
 @import 'blockquotes';
 @import 'code';
-
-body {
-    background-color: $background-color;
-}
-
-* {
-    color: $font-color;
-}

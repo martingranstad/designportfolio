@@ -1,9 +1,14 @@
 $font-color: #000;
 $font-alternative-color: #fff;
 $accent-color: #ee6c4d;
-$background-color: #3d5a80;
+$background-color: #FFC0CB;
 $background-alternative-color: #e0fbfc;
+$header-footer-color: #b7454a;
 
 $font-standard: 'Montserrat', sans-serif;
 $font-headings: 'Kanit', sans-serif;
 $font-seriff-style: sans-serif;
+
+$base-line-height: 1.4;
+$base-font-size: 1.25rem;
+$vertical-rhythm: $base-line-height * $base-font-size;
