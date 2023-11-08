@@ -1,0 +1,28 @@
+/*
+No style rules in this file only imports.
+
+The order of the imports matter. Later imports will override earlier.
+Order should be:
+Other peoples styles.
+Variables.
+Less specific.
+More specific.
+
+Alas files that effect more things should be placed earlier.
+*/
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'typography';
+
+@import 'blockquotes';
+@import 'code';
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
