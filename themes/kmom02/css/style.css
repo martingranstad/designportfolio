@@ -6467,9 +6467,9 @@ body {
   margin: 0 auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 80rem) {
   .main {
-    width: 780px;
+    width: 64rem;
   }
 }
 .header, .footer {
