@@ -10,6 +10,16 @@ More specific.
 
 Alas files that effect more things should be placed earlier.
 */
+//Font awesome setup
+@import '../../shared/fontawesome/scss/fontawesome';//Base module for font awesome, maps class names to icons
+$fa-font-path: '../../shared/fontawesome/webfonts';//Location of fonts relative to the location of the "compiled" file
+//Three different sets of icons(fonts) from font awesome
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@300&display=swap');
 
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
