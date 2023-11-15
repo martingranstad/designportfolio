@@ -1,0 +1,22 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="technologies-nav">
+            {% for page in pages("technology") if not page.hidden %}
+                <div class="technology">
+                    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
