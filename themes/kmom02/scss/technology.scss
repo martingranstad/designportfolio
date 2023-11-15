@@ -6,6 +6,13 @@
     grid-template-rows: 100px 100px 100px 100px 100px;
 }
 
+@media screen and (max-width: 780px) {
+    .landingpage {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .landingpage h1 {
     grid-column: 1 / 4;
     grid-row: 1 / 1;
@@ -28,6 +35,7 @@
     border-bottom: 1px solid #000;
 }
 
+//Hade förmodligen varit trevligt med en funktion/mixin här
 .css {
     grid-column: 1 / 1;
     grid-row: 2 / 2;
