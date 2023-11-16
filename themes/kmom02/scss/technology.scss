@@ -12,9 +12,11 @@
     .technology-nav {
         display: none;
     }
+
     .technology-content {
         justify-content: center;
     }
+
     .main-technology {
         display: block;
         width: 80%;
@@ -25,6 +27,7 @@
     grid-column: 1 / 1;
     padding-top: $vertical-rhythm;
 }
+
 .technology-content {
     grid-column: 2 / 3;
 }

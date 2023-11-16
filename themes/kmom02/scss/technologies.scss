@@ -38,6 +38,7 @@
     grid-column: 2 / 4;
     grid-row: 2 / 2;
 }
+
 .javascript {
     grid-column: 1 / 3;
     grid-row: 3 / 3;
@@ -71,10 +72,12 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8, 100px);
     }
-    .css, .html, .javascript, .php, .python, .git, .sqlite{
+
+    .css, .html, .javascript, .php, .python, .git, .sqlite {
         grid-column: 1 / 1;
         grid-row: auto;
     }
+
     .landingpage h1 {
         grid-column: 1 / 1;
         justify-self: center;
