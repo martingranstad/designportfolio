@@ -3,15 +3,15 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-    <div class="main" role="main">
-        <div class="technologies-nav">
+    <div class="main-technology" role="main">
+        <div class="technology-nav">
             {% for page in pages("technology") if not page.hidden %}
                 <div class="technology">
                     <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
                 </div>
             {% endfor %}
         </div>
-        <div class="content">
+        <div class="technology-content">
             {{ content }}
         </div>
     </div>
