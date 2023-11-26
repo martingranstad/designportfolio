@@ -1,0 +1,9 @@
+/* Header */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $header-footer-color;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}

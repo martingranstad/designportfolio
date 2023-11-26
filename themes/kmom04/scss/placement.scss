@@ -1,0 +1,22 @@
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 80%;
+    margin: 0 auto;
+}
+@media (min-width: 80rem) {
+    .main {
+        width: 64rem;
+    }
+}
+  
+.header, .footer {
+    flex: 0 0 auto;
+}

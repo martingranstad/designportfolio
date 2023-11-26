@@ -19,10 +19,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';//Location of fonts relative 
 @import '../../shared/fontawesome/scss/regular';
 
 //Fonts
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'dark-variables';
 
 @import 'base';
 @import 'placement';
@@ -39,7 +39,3 @@ $fa-font-path: '../../shared/fontawesome/webfonts';//Location of fonts relative 
 
 @import 'blockquotes';
 @import 'code';
-
-.main {
-    //background-color: yellow;
-}

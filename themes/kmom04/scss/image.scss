@@ -1,0 +1,10 @@
+/*Image*/
+
+img {
+    max-width: 100%;
+    filter: brightness($img-brightness) contrast($img-contrast);
+}
+
+.firstimg {
+    width: 300px;
+}

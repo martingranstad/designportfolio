@@ -1,0 +1,33 @@
+/* technology.scss */
+.main-technology {
+    display: grid;
+    gap: 1em 1em;
+    grid-template-columns: 33% 66%;
+    grid-template-rows: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 780px) {
+    .technology-nav {
+        display: none;
+    }
+
+    .technology-content {
+        justify-content: center;
+    }
+
+    .main-technology {
+        display: block;
+        width: 80%;
+    }
+}
+
+.technology-nav {
+    grid-column: 1 / 1;
+    padding-top: $vertical-rhythm;
+}
+
+.technology-content {
+    grid-column: 2 / 3;
+}

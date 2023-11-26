@@ -1,0 +1,14 @@
+/* Navigation */
+.nav {
+    font-size: $base-font-size*1.25;
+
+    a {
+        text-decoration: none;
+        color: $font-color;
+        font-weight: bold;
+    }
+    
+    a:hover {
+        border-bottom: 2px solid $background-color;
+    }
+}

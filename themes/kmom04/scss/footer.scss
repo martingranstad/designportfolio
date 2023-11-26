@@ -1,0 +1,19 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $separator-color;
+    background-color: $header-footer-color;
+    padding: 2em;
+    color: $font-color;
+    margin-top: 1em;
+}
+
+.footer a {
+    color: $accent-color2;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
