@@ -21,6 +21,5 @@ $pico->setConfig(array(
     'session' => $_SESSION
 ));
 
-
 // run application
 echo $pico->run();
