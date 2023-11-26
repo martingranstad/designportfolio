@@ -8,4 +8,10 @@ Social:
     - title: Länk till BTHs hemsida
       url: https://bth.se
       icon: fa fa-graduation-cap
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
