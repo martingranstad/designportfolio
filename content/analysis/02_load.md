@@ -1,7 +1,7 @@
 ---
 Title: Load kmom05
 Description: Rapport om ??
-Template: technology
+Template: analysis
 ---
 
 Titel på rapporten

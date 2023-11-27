@@ -1,7 +1,7 @@
 ---
 Title: Design principles kmom06
 Description: Rapport om ??
-Template: technology
+Template: analysis
 ---
 
 Titel på rapporten

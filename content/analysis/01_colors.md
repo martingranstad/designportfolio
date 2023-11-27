@@ -1,7 +1,7 @@
 ---
 Title: Colors kmom04
 Description: Rapport om färger
-Template: technology
+Template: analysis
 ---
 
 Titel på rapporten

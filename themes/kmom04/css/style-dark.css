@@ -6773,15 +6773,15 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #f5f5f5;
+  border-left: 0.5em solid #2e2b19;
 }
 
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
+  border: 1px solid #FFC032;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #2e2b19;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6789,9 +6789,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  border: 1px solid #FFC032;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #2e2b19;
 }
 
 pre code {
