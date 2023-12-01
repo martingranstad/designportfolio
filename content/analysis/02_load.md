@@ -50,4 +50,12 @@ Genomgående för samtliga webbplatser var att prestandan var bristande, framfö
 
 Övrigt
 -----------------------
-Martin Granstad
+Webbplatserna kan rankas enligt:
+1. https://teeview.se/
+2. http://tabygk.se/
+3. https://golf.se/
+Intressant är att webbplatsen som tillhör det minsta av företagen tycks prestera bäst medan det som tillhör det största presterar sämst.
+
+Jag upplever samtliga sidor som något långsamma. Jämför jag med dbwebb.se och google.se så ligger båda deras laddningstider på under en sekund. Detta upplevs för mig som en snabb laddningstid. Dock upplever jag inte att jag lider av laddningstiden på någon av sidorna utom möjligen tabygk.ses laddningstid av facebook widgeten. Så förmodligen så hamnar min gräns för långsam någonstans runt fyra sekunder.
+
+av Martin Granstad
