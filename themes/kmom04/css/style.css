@@ -6596,15 +6596,15 @@ a, a:hover, a:focus, a:active {
 }
 .nav .container a {
   text-decoration: none;
-  margin: 0px 10px;
-  padding: 10px 10px;
+  margin: 0 10px;
+  padding: 10px;
   position: relative;
   z-index: 0;
   cursor: pointer;
 }
-.nav .topBotomBordersOut a:before, .nav .topBotomBordersOut a:after {
+.nav .navanimation a::before, .nav .navanimation a::after {
   position: absolute;
-  left: 0px;
+  left: 0;
   width: 100%;
   height: 3px;
   background: #FFE98C;
@@ -6612,17 +6612,17 @@ a, a:hover, a:focus, a:active {
   opacity: 1;
   transition: all 0.1s;
 }
-.nav .topBotomBordersOut a:after {
+.nav .navanimation a::after {
   top: -5px;
-  transform: translateY(0px);
+  transform: translateY(0);
 }
-.nav .topBotomBordersOut a:before {
-  bottom: 0px;
+.nav .navanimation a::before {
+  bottom: 0;
   transform: translateY(50px);
 }
-.nav .topBotomBordersOut a:hover:before, .nav .topBotomBordersOut a:hover:after {
+.nav .navanimation a:hover::before, .nav .navanimation a:hover::after {
   opacity: 1;
-  transform: translateY(0px);
+  transform: translateY(0);
 }
 
 /* Title */
@@ -6717,7 +6717,7 @@ img {
 .technology-nav {
   grid-column: 1/1;
   padding-top: 1.5625rem;
-  border-right: 2px solid black;
+  border-right: 2px solid #FFA933;
   font-size: 1.25rem;
 }
 
@@ -6751,7 +6751,7 @@ img {
   border: 4px solid #000;
 }
 
-.box h3 {
+.box h2 {
   border-bottom: 1px solid #000;
 }
 

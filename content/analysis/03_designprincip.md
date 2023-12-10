@@ -115,9 +115,10 @@ Sidan upplevs som väldigt statisk så jag vill få till lite mer rörelse i sid
 
 Ändringar jag gjorde:
 Lade till animationer kring navigationen för att få rörelse.
-Använde mig av två varianter av headern, en för technologies-/rapportsidorna som balanserar olika.
+Lite justeringar i headern..
 I footern spred jag ikonerna för att det skulle bli bättre balans.
 Jag använde mig av linjer/framing i ändringar av sidebarnavigationen i technologies-/rapportsidorna.
+Jag ändrade även typsnittet till något jag tyckte såg lite mer formellt ut.
 
 
 

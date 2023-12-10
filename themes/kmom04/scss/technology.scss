@@ -22,6 +22,7 @@
         width: 80%;
     }
 }
+
 .technology {
     background-color: $separator-color;
     opacity: 90%;
@@ -39,7 +40,7 @@
 .technology-nav {
     grid-column: 1 / 1;
     padding-top: $base-font-size*1.25;
-    border-right: 2px solid black;
+    border-right: 2px solid $separator-color;
     font-size: $base-font-size;
 }
 
