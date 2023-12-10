@@ -4,7 +4,7 @@ Description: Rapport om färger
 Template: analysis
 ---
 
-Titel på rapporten
+Färg och typografi på personsidor
 =======================
 
 I rapporten kommer tre olika webbplatser att väljas ut och analyseras utifrån färg och typografi.

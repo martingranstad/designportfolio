@@ -14,6 +14,9 @@
     color: $accent-color2;
 }
 
-.footer .social {
+.footer a {
     font-size: 2rem;
+}
+
+.footer a:nth-child(-n+2){
 }

@@ -1,14 +1,47 @@
 /* Navigation */
 .nav {
-    font-size: $base-font-size*1.25;
+    font-size: $base-font-size;
+    .container
+    {
+        text-align: center;
+    }
 
-    a {
+    .container a
+    {
         text-decoration: none;
-        color: $font-color;
-        font-weight: bold;
+        margin: 0px 10px;
+        padding: 10px 10px;
+        position: relative;
+        z-index: 0;
+        cursor: pointer;
     }
-    
-    a:hover {
-        border-bottom: 2px solid $background-color;
+   .topBotomBordersOut a:before, .topBotomBordersOut a:after
+    {
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        height: 3px;
+        background: $background-color;
+        content: "";
+        opacity: 1;
+        transition: all 0.1s;
     }
+
+    .topBotomBordersOut a:after
+    {
+        top: -5px;
+        transform: translateY(0px);
+    }
+
+    .topBotomBordersOut a:before
+    {
+        bottom: 0px;
+        transform: translateY(50px);
+    }
+
+    .topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    } 
 }

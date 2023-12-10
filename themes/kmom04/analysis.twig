@@ -7,7 +7,7 @@
         <div class="technology-nav">
             {% for page in pages("analysis") if not page.hidden %}
                 <div class="technology">
-                    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                    <a href="{{ page.url }}">{{ page.title }}</a>
                 </div>
             {% endfor %}
         </div>

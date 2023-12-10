@@ -2,8 +2,14 @@
 
 .header, .site-header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: $header-footer-color;
     margin-bottom: 2em;
     margin-top: 1em;
+}
+
+.title {
+
 }
