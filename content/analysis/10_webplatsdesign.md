@@ -1,5 +1,5 @@
 ---
-Title: Design principles kmom10
+Title: Tillgänglighet i designprocessesen, kmom10
 Description: Rapport om aktuella trender i webbdesign
 Template: analysis
 ---
@@ -7,7 +7,7 @@ Template: analysis
 Trender inom tillgänglighet i webbdesign för golfklubbar i norra Stockholm
 =======================
 
-I rapporten kommer tre olika golfklubbars i norra Stockholms webbsidor att väljas ut, analyseras och jämföras när det kommer till att ha tillgänglighet i åtanke vid designen. Frågan "Finns det någon nuvarande trend bland golfklubbar i norra Stockholm när det kommer till att ta tillgänglighet i åtanke när de designar sina webbsidor?" kommer att besvaras.
+I rapporten kommer tre olika golfklubbar i norra Stockholms webbsidor att väljas ut, analyseras och jämföras när det kommer till att ha tillgänglighet i åtanke vid designen. Frågan "Finns det någon nuvarande trend bland golfklubbar i norra Stockholm när det kommer till att ta tillgänglighet i åtanke när de designar sina webbsidor?" kommer att besvaras.
 
 Urval
 -----------------------
